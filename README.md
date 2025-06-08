@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This template provides a starting point for building React applications using Vite as the build tool, TypeScript for type safety, Radix UI for accessible and customizable UI components, ESLint and Prettier for code formatting and linting, and lint-staged with husky for pre-commit hooks.
+This template provides a starting point for building React applications using Vite as the build tool, TypeScript for type safety, Radix UI for accessible and customizable UI components, Oxc and Prettier for code formatting and linting, and lint-staged with husky for pre-commit hooks.
 
 ## Features
 
@@ -8,7 +8,7 @@ This template provides a starting point for building React applications using Vi
 - **React**: A JavaScript library for building user interfaces.
 - **TypeScript**: A statically typed superset of JavaScript that compiles to plain JavaScript.
 - **Radix UI**: A collection of accessible and customizable UI components for React.
-- **ESLint**: A pluggable linting utility for JavaScript and TypeScript.
+- **Oxlint**: A pluggable linting utility for JavaScript and TypeScript.
 - **Prettier**: An opinionated code formatter.
 - **lint-staged**: Run linters on git staged files.
 - **husky**: Git hooks made easy.
@@ -54,11 +54,11 @@ Serves the production build from the `dist` folder.
 
 ### `npm run lint`
 
-Runs ESLint to lint the TypeScript code.
+Runs Oxlint to lint the TypeScript code.
 
 ### `npm run lint:fix`
 
-Runs ESLint with the `--fix` option to automatically fix linting issues.
+Runs Oxlint with the `--fix` option to automatically fix linting issues.
 
 ### `npm run format`
 
@@ -80,7 +80,7 @@ my-react-app/
 │   ├── App.tsx
 │   └── index.tsx
 │
-├── .eslintrc.js
+├── .oxlintrc.js
 ├── .prettierrc.js
 ├── .lintstagedrc.js
 ├── .husky/
@@ -96,7 +96,7 @@ my-react-app/
 - [Vite](https://vitejs.dev/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
 - [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript that compiles to plain JavaScript.
 - [Radix UI](https://radix-ui.com/): A collection of accessible and customizable UI components for React.
-- [ESLint](https://eslint.org/): A pluggable linting utility for JavaScript and TypeScript.
+- [Oxc](https://oxc.rs/docs): A pluggable linting utility for JavaScript and TypeScript.
 - [Prettier](https://prettier.io/): An opinionated code formatter.
 - [lint-staged](https://github.com/okonet/lint-staged): Run linters on git staged files.
 - [husky](https://github.com/typicode/husky): Git hooks made easy.
