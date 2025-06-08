@@ -1,13 +1,12 @@
 # React + TypeScript + Vite
 
-This template provides a starting point for building React applications using Vite as the build tool, TypeScript for type safety, Storybook for component development, Radix UI for accessible and customizable UI components, ESLint and Prettier for code formatting and linting, and lint-staged with husky for pre-commit hooks.
+This template provides a starting point for building React applications using Vite as the build tool, TypeScript for type safety, Radix UI for accessible and customizable UI components, ESLint and Prettier for code formatting and linting, and lint-staged with husky for pre-commit hooks.
 
 ## Features
 
 - **Vite**: A fast, modern build tool for web development.
 - **React**: A JavaScript library for building user interfaces.
 - **TypeScript**: A statically typed superset of JavaScript that compiles to plain JavaScript.
-- **Storybook**: An open-source tool for developing UI components in isolation for React, Vue, and Angular.
 - **Radix UI**: A collection of accessible and customizable UI components for React.
 - **ESLint**: A pluggable linting utility for JavaScript and TypeScript.
 - **Prettier**: An opinionated code formatter.
@@ -65,15 +64,6 @@ Runs ESLint with the `--fix` option to automatically fix linting issues.
 
 Formats the code using Prettier.
 
-### `npm run storybook`
-
-Starts the Storybook server.
-Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
-
-### `npm run build-storybook`
-
-Builds the Storybook as a static site for production to the `storybook-static` folder.
-
 ## Project Structure
 
 The project structure is organized as follows:
@@ -84,14 +74,11 @@ my-react-app/
 ├── src/
 │   ├── components/
 │   │   ├── Button/
-│   │   │   ├── Button.tsx
-│   │   │   └── Button.stories.tsx
+
+│   │   │   └── Button.tsx
 │   │   └── ...
 │   ├── App.tsx
 │   └── index.tsx
-│
-├── .storybook/
-│   └── main.js
 │
 ├── .eslintrc.js
 ├── .prettierrc.js
@@ -108,7 +95,6 @@ my-react-app/
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [Vite](https://vitejs.dev/): A build tool that aims to provide a faster and leaner development experience for modern web projects.
 - [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript that compiles to plain JavaScript.
-- [Storybook](https://storybook.js.org/): An open-source tool for developing UI components in isolation for React, Vue, and Angular.
 - [Radix UI](https://radix-ui.com/): A collection of accessible and customizable UI components for React.
 - [ESLint](https://eslint.org/): A pluggable linting utility for JavaScript and TypeScript.
 - [Prettier](https://prettier.io/): An opinionated code formatter.
